@@ -1,0 +1,12 @@
+#related-files-container {padding-top: 20px;}
+#related-files-container .item {float: left; height: 200px; width: 120px; background: #fff; overflow: hidden;cursor: move;text-align: center;
+padding: 10px;border: 1px solid #dddddd; position: relative; margin: 0px 10px 10px 0;}
+#related-files-container .item .del-item {
+    position: absolute; display: block; top: 0; right: 0;
+    background: url('../img/xit-2x.gif') no-repeat top right;
+    width: 20px; height: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+#related-files-container .item img {width: 100px;display: block; margin: 0 auto;}
+.clearfix {clear: both;}
